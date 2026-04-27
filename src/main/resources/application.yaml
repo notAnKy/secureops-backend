@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cybersdb
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver   # ← add this
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect  # ← add this
+
+  sql:
+    init:
+      mode: always
+  
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: 4048b0ab51ca93
+    password: 4786249741ed99
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8081
+
+jwt:
+  secret: "9fK3lP8xQ2vZ7mN5rT1aB6yH4wE0uC9sX8dJ2kL5pQ"
+  expiration-ms: 86400000  # 24 hours
+
+
