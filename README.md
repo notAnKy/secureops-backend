@@ -518,9 +518,9 @@ The React TypeScript frontend for this project is available at:
 
 ---
 
-## Author
+## Authors
 
-**Mohamed Ali Jemmali**  
+**Mohamed Ali Jemmali** - **Rami Boubakri**   
 Software Engineering — 2025/2026
 
 ---
