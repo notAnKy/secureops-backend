@@ -520,7 +520,7 @@ The React TypeScript frontend for this project is available at:
 
 ## Authors
 
-**Mohamed Ali Jemmali** - **Rami Boubakri**   
+**Mohamed Ali Jemmali** - **Rami Boubakri** - **Zouhaier Karoui**  
 Software Engineering — 2025/2026
 
 ---
